@@ -14,7 +14,7 @@ except ValueError as e:
 
 array=[]
 for i in range(size):
-    values=input(f"enter the value at index {i+1} ")  
+    values=input(f"enter the value at indexe {i+1} ")  
     array.append(values)
 
 max_sum = max_subarray_sum(array)
