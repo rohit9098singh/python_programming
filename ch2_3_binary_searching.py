@@ -13,7 +13,7 @@ for i in range(array):
 
 print("given array is as follow\n",real_array)
 first=0
-last = array - 1
+last = len(real_array) - 1
 search=input("enter  the elenent that is to be searched :")
 while first<=last:
     middle=(first+last)//2
