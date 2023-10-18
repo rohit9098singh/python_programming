@@ -11,3 +11,6 @@ from math import *
 result=sqrt(9)
 print(result)
 print(pi)
+
+#TO KNOW ALL THE METHODS OF THE IMPORT VRIABLE ------> DONE WITH THE HELP OF AN DIR METHOD
+print(dir(math))
