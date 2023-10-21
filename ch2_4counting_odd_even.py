@@ -7,7 +7,7 @@ except ValueError as e:
     print(e)
     print("Invalid data type entry. Please make a proper choice.")
     exit(1)
-
+    
 array = []
 
 for i in range(n):
