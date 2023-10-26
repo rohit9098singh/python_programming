@@ -5,7 +5,9 @@ current_time_seconds = time.time()
 print("Current time in seconds since the epoch:", current_time_seconds)
 
 # Get the current time as a string in a preferred format
-current_time_string = time.ctime(current_time_seconds)
+current_time_string = time.ctime(current_time_seconds)  #time.ctime function. In Python, time.ctime()is a built-in function from the time module 
+                                                         #that takes the number of seconds since the epoch as an argument and returns a string representing 
+                                                         # the local time. 
 print("Current time as a string:", current_time_string)
 
 # Wait for 2 seconds

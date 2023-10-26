@@ -29,5 +29,5 @@ print("Printing this message after 2 seconds")
 
 #USING THE TIME.STRFTIME METHODS
 t=time.localtime()
-formated_time=time.strftime("%y-%m-%d  %H:%M:%S",t)
-print(formated_time)
+#formated_time=time.strftime("%y-%m-%d  %H:%M:%S",t)
+print(t)
