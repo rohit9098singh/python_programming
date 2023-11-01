@@ -11,7 +11,7 @@ print(f"Index of 4 in the tuple: {index_of_4}")
 
 
 length_of_tuple = len(my_tuple)
-print(f"Length of the tuple: {length_of_tuple}")
+print(f"Length of the tuple is as follow : {length_of_tuple}")
 
 
 sliced_tuple = my_tuple[2:5]
