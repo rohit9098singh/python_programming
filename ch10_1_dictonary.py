@@ -7,9 +7,10 @@ print(dictonary_varible.get('eligible'))
 print(dictonary_varible.keys())
 print(dictonary_varible.values())
 
+print("=================================")
 for i in dictonary_varible.keys():
     print(i,dictonary_varible[i])
-
+print("==================================")
 for i in dictonary_varible.values():
     print(i)
 
