@@ -7,7 +7,7 @@ except ArithmeticError as e:
 # 2. IndexError
 my_list = [1, 2, 3]
 try:
-    value = my_list[2]
+    value = my_list[3]
     print(value)
 except IndexError as e:
     print(f"IndexError: {e}")
