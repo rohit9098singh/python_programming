@@ -17,5 +17,5 @@ with open('myfile5.txt2', 'w') as f:
     f.write("HELLO EVERYONE 123456")
     f.truncate(5) # means mere file me kitne character hai mereko nhi malum iske baadh usme sirf 5 he bytes hone chaheye
 
-with open('myfile5.txt2', 'r') as f:
+with open('myfile5.txt2 ', 'r') as f:
     print(f.read()) 
