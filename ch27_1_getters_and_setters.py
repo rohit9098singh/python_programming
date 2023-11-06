@@ -4,7 +4,7 @@ class Person:
         self.age = age
 
     def show(self):
-        print(f"The name of the person is: {self.name} and is {self.age} years old.")
+        print(f"The name of the person is: {self.name} and is = {self.age} years old.")
 
     @property
     def details(self):

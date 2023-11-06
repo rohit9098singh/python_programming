@@ -4,7 +4,7 @@ class Employee:
         self.department = department
         self.location = location
         self.age = age
-
+   
     @property
     def getname(self):
         return self.name
