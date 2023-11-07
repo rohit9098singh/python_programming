@@ -19,8 +19,8 @@ def main():
     p.display()
 
     if __name__=='__main__':
-      main()
-    '''
+      main()'''
+    
 class person1:
     def __init__(self, name, age):
         self.name = name
@@ -28,7 +28,7 @@ class person1:
 
     @classmethod
     def fromstring(cls, string):
-        name, age = map(str.strip, string.split("-"))  
+        name, age = map(str.strip, string.split("-"))  # the strip function is applied to each element that is splitted afetr the splitting of the string that is why str is used
         return cls(name, int(age))
 
     def display(self):

@@ -6,7 +6,8 @@ class person:
 
     @classmethod
     def fromstr(cls, string):
-        return cls(string.split("-")[0], int(string.split("-")[1]))
+       name,salary=string.split("-")
+       return cls(name,int(salary))   
 
 e = person("rahul", 122900)
 print(e.name)
