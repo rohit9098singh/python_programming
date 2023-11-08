@@ -7,7 +7,7 @@ res1=datetime.datetime(2023,5,22,4,45,54,43222)
 print(res1)
 
 res3 = res.strftime("%Y")
-print("short version of the year is", res3)
+print("full version of the year is", res3)
 res3 = res.strftime("%B")
 print("full version of the month is", res3)
 res3 = res.strftime("%A")

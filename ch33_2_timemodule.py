@@ -22,5 +22,5 @@ elapsed_time = current_time_seconds_after_waiting - current_time_seconds
 print("Elapsed time:", elapsed_time, "seconds")
 
 # Demonstrate the conversion of seconds to a structured time
-structured_time = time.localtime(current_time_seconds)
+structured_time = time.localtime()#(current_time_seconds)
 print("Structured Time:", structured_time)
