@@ -11,4 +11,5 @@ class child(employee):
 c=child()
 c.child_method()
 c.parent_method()
+print(help(c))
             
