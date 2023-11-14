@@ -34,7 +34,7 @@ show_password_check.grid(row=2, column=1)
 Button(root, text="Submit", command=getvalue).grid()
 
 root.mainloop()
-
+  
 
 
 #SUPPOSE IF I WANT TO PLACE THE ROW AT PASSWORD AT THE NINETH ROW WE CANNOT PLACE IT DIRECTLY WE WILL HAVE TO MAKE A DUMMY ROWS TO FILL THE REST AREA THEN 
