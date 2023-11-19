@@ -4,9 +4,14 @@ root = Tk()
 root.geometry("400x300")
 
 def getvalues():
-    print("its working properly your meals is getting packed will be delevered soon..........")
+   name.get()
+   gender.get()
+   location.get()
+   payment_mode.get()
+   food_service.get()
+   #with open("record.txt","w") as f:
 
-Label(root, text="HERE WE GONNA SEE HOW THE CHECKBOX WORKS AT HERE", font=("Helvetica", 16, "bold"),relief=FLAT).grid(row=0, column=1)
+Label(root, text="HERE WE GONNA SEE HOW THE CHECKBOX WORKS AT HERE", font=("Helvetica", 16, "bold"), relief=FLAT).grid(row=0, column=1)
 
 
 l1 = Label(root, text="Name").grid(row=1, column=0)
