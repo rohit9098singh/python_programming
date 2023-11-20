@@ -1,5 +1,5 @@
 class person:
-    Name='harry'
+    Name='RIYA'
     age=34
     occupation="undergraduate and learning codding"
     
